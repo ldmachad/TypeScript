@@ -22,10 +22,6 @@ let usuario2: Usuario = {
     senha: "654321"
 }
 
-function listarDados(usuario: Usuario){
-    return `Nome: ${usuario.nome} ${usuario.sobrenome}\nIdade: ${usuario.idade} anos\nE-mail: ${usuario.login}\nSenha: ${usuario.senha}\n`;
-}
+console.log(usuario1)
 
-console.log(listarDados(usuario1))
-
-console.log(listarDados(usuario2))
+console.log(usuario2)

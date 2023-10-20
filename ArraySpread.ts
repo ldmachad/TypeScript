@@ -16,6 +16,6 @@ let produto2: Produto = {
     descricao: "Descrição do produto dois."
 }
 
-const listaProdutos: [Produto, Produto] = [produto1, produto2];
+const listaProdutos: Array<Produto> = [produto1, produto2];
 
 console.log(...listaProdutos)

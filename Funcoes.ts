@@ -1,5 +1,5 @@
-function palavras(palavra1: string, palavra2: string){
-    console.log(palavra1 + palavra2)
+function palavras(palavra1: string){
+    console.log(palavra1)
 }
 
 function numeros(num1: number, num2: number){
@@ -10,6 +10,6 @@ function combinando(palavra: string, numero: number){
     console.log(palavra + numero)
 }
 
-palavras("Leonardo", "Machado")
+palavras("Leonardo")
 numeros(1, 2)
 combinando("Leonardo", 29)
